@@ -1,2 +1,1 @@
-# Ecommerce
-Ecommerce site for Intro to Web Development
+# JK's Drum Shed
