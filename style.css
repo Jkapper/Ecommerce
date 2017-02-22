@@ -1,0 +1,17 @@
+/* Coolors Exported Palette - coolors.co/4c5760-93a8ac-d7ceb2-a59e8c-66635b */
+
+h1
+{font-family: "Times New Roman", Georgia, Serif;}
+/* HSL */
+$color1: hsla(207%, 12%, 34%, 1);
+$color2: hsla(190%, 13%, 63%, 1);
+$color3: hsla(45%, 32%, 77%, 1);
+$color4: hsla(43%, 12%, 60%, 1);
+$color5: hsla(44%, 6%, 38%, 1);
+
+/* RGB */
+$color1: rgba(76, 87, 96, 1);
+$color2: rgba(147, 168, 172, 1);
+$color3: rgba(215, 206, 178, 1);
+$color4: rgba(165, 158, 140, 1);
+$color5: rgba(102, 99, 91, 1);
