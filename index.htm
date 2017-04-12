@@ -1,0 +1,95 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>JK's Drum Shed</title>
+	<meta name="description" content="HTML5 Template">
+	 	
+	<style>
+.container {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+    transform: rotate(-45deg) translate(-9px, 6px) ;
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+    transform: rotate(45deg) translate(-8px, -8px) ;
+}
+</style>
+</head>
+<body>
+
+<p>Menu:</p>
+<div class="container" onclick="myFunction(this)">
+  <div class="bar1"></div>
+  <div class="bar2"></div>
+  <div class="bar3"></div>
+</div>
+
+<script>
+function myFunction(x) {
+    x.classList.toggle("change");
+}
+</script>
+		
+		<div id=”header”></div>
+	<div id=”menu” ><a target="_blank" href="https://jkapper.github.io/drumsets.htm"><strong>Drumsets</strong></a><br>
+	<a target="_blank" href="https://jkapper.github.io/cymbals.htm"><strong>Cymbals</strong></a><br>
+	<a target="_blank" href="https://jkapper.github.io/contactus.htm"><strong>Contact Us</strong></a>
+	</div>
+	<div id=”content” ></div>
+	
+	<center><img src= "JKsDrumShed.png" alt="The JK's Drumshed logo"></center>
+	<link rel="stylesheet" href="Jkapper.github.io/style.css">
+	<link rel="script" href=Jkapper.github.io/script.js">
+
+	<script>
+function myFunction() {
+    var d = new Date();
+    d.setHours(15);
+    document.getElementById("demo").innerHTML = d;
+}
+</script>
+
+	<style>
+	h2{color:maroon;}
+	
+	</style>
+</head>
+
+<body>
+ <center><h1>JK's Drum Shed</h1></center>
+
+    <center><a target="_blank" href="https://jkapper.github.io/drumsets.htm"><strong>Drumsets</strong></a>
+	<a target="_blank" href="https://jkapper.github.io/cymbals.htm"><strong>Cymbals</strong></a>
+	<a target="_blank" href="https://jkapper.github.io/contactus.htm"><strong>Contact Us</strong></a></center><br>
+	 
+	 <center><p><strong>Welcome to JK's Drum Shed!</strong><br>
+	We buy and sell used percussion equipment of all sorts.<br>
+	Take a look around our shop and feel free to contact us with any questions! 
+ 
+ </p></center>
+	<center><img src="http://www.rhythmtraders.com/images/products/8482.jpg" alt="Mapex 5 peice drumset" width="500"></center><br>
+	<center><img src="http://tweakyourbiz.com/sales/files/shutterstock_130676663.jpg" alt="Buy or Sell" width="300"></center><br><br>
+
+	<center><a target="_blank" href="https://jkapper.github.io/drumsets.htm"><strong>Drumsets</strong></a>
+	<a target="_blank" href="https://jkapper.github.io/cymbals.htm"><strong>Cymbals</strong></a>
+	<a target="_blank" href="https://jkapper.github.io/contactus.htm"><strong>Contact Us</strong></center></a>
+</body>
+</html>
