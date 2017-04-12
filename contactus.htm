@@ -1,0 +1,105 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<center><title>JK's Drum Shed</title></center>
+	<meta name="description" content="HTML5 Template">
+		 	
+	<style>
+.container {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+    transform: rotate(-45deg) translate(-9px, 6px) ;
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+    transform: rotate(45deg) translate(-8px, -8px) ;
+}
+</style>
+</head>
+<body>
+
+<p>Menu:</p>
+<div class="container" onclick="myFunction(this)">
+  <div class="bar1"></div>
+  <div class="bar2"></div>
+  <div class="bar3"></div>
+</div>
+
+<script>
+function myFunction(x) {
+    x.classList.toggle("change");
+}
+</script>
+			
+			<div id=”header”></div>
+	<div id=”menu” ><a target="_blank" href="https://jkapper.github.io/drumsets.htm"><strong>Drumsets</strong></a><br>
+	<a target="_blank" href="https://jkapper.github.io/cymbals.htm"><strong>Cymbals</strong></a><br>
+	<a target="_blank" href="https://jkapper.github.io/contactus.htm"><strong>Contact Us</strong></a>
+	</div>
+	<div id=”content” ></div>
+	<link rel="stylesheet" href="Jkapper.github.io/style.css">
+	<link rel="script" href=Jkapper.github.io/script.js">
+
+</head>
+
+<body>
+<center><h1>JK's Drum Shed</h1></center>
+<center><h2>Contact Us</h2></center>
+<center><p>Thanks for choosing JK's Drum Shed! If you have any quesions, <br>
+ concerns or general feedback, Please reach out to us here!<br>
+ We personally read each email and will respond as soon as possible</p>
+ 
+	<form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+	<div class="row">
+		<label for="name">Your name:</label><br />
+		<input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+	</div>
+	<div class="row">
+		<label for="email">Your email:</label><br />
+		<input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+	</div>
+	<div class="row">
+		<label for="message">Your message:</label><br />
+		<textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+</form>	
+
+	<button type="button" onclick="myFunction()">Submit</button>
+
+<p id="demo1"></p>
+
+<script>
+function myFunction() {
+    document.getElementById("demo1").innerHTML = "Thank you for your submission. We will respond to you as soon as possible";
+    
+}
+</script>
+<br>
+<br>
+<a href="https://jkapper.github.io"><center><strong>Homepage</strong></center></a>
+	
+	<p id="demo"></p>
+
+<script>
+var d = new Date();
+document.getElementById("demo").innerHTML = d.toUTCString();
+</script>
+
+</body>
+</html>
